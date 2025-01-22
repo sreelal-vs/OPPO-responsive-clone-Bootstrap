@@ -1,0 +1,335 @@
+@font-face {
+    font-family:"OPPO sans";
+    src: url("https://www.oppo.com/content/dam/statics/fonts/en/OPPOSans3.0En-VF.woff2");
+}
+header,main
+{
+    font-family: "OPPO sans";
+}
+
+header nav 
+{
+    padding: 0px 64px !important;
+}
+header .unlock
+{
+    background-color: rgb(4, 106, 56);
+    color: white;
+    height: 60px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+
+header .unlock span
+{
+    font-size: 12px;
+    line-height: 60px;
+    font-weight: 500;
+}
+header nav
+{
+    height: 52px;
+}
+.navbar-brand
+{
+    margin-right: 26px !important;
+}
+.dropdownlink .nav-item .nav-link
+{
+    line-height: 52px;   
+    font-size: 15px;
+}
+#navbarText div ul li a
+{
+    padding: 0px 12px ;
+    font-size: 14px;
+    line-height: 52px;
+}
+#navbarText div .search input
+{
+    height: 20px;
+    padding: 0px;
+    
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+@media (max-width:1400px) {
+    
+    #navbarText div .search
+    {
+        width: 120px;
+    }
+}
+#navbarText div .search input::placeholder
+{
+    color: rgba(80, 80, 80, 0.55);
+    font-size: 13px;
+    font-weight: 500;
+    width: 100%;
+}
+
+#navbarText div .search
+{
+    padding-left: 5px;
+    background-color: rgb(240, 240, 240);
+    padding:7px 12px;
+    border-radius: 35px;
+}
+.section1-part1
+{
+    max-width: 1312px;
+    width: 100%;
+}
+.section1-part1 .newproduct
+{
+    margin-bottom: 40px;
+}
+.wrap
+{
+    overflow: hidden;
+    height: 460px;
+}
+.opporeno  img 
+{
+    z-index: -20;
+    
+    height: 100%;
+    min-height: 264px;
+    object-fit: cover;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.logo img
+{
+    max-height: 12px;
+    
+}
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .wrap
+    {
+        height: 580px;
+    }
+}
+.about-opporeno
+{
+    background-color: rgb(215, 255, 219);
+    color: black;
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    box-sizing: border-box;
+    padding: 20px 16px;
+    width: 254px;
+    
+}
+.section1-part2
+{
+    max-width: 1312px;
+    width: 100%;
+}
+.section1-part2 div div div div
+{
+    background-color: rgb(246, 246, 246);
+}
+.aboutphone
+{
+    font-size: 16px;
+    background-color: rgb(239, 237, 233) !important;
+    border-radius: 5px;
+    padding:20px 16px ;
+}
+.aboutphone a
+ {
+    color: black;
+    text-decoration: none;   
+}
+.aboutphone div
+{
+    background-color: rgb(239, 237, 233) !important;
+}
+.section1-part2 .container-fluid .row div .phones:hover
+{
+    transform: scale(105%);
+    transition: all 0.3s ease-in-out;
+} 
+.section1-part2 .container-fluid .row div .phones
+{
+    transform: scale(100%);
+    transition: all 0.3s ease-in-out;
+} 
+.learnmore
+{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    margin-right: 16px;
+    font-size: 14px;
+}
+.learnmore::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    right: 0;
+    bottom: -1px;
+
+}
+.learnmore:hover::before
+{
+    width: 0px;
+    transition: all 0.3s ease;
+}
+.Buynow
+{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    margin-right: 16px;
+    font-size: 14px;
+}
+.Buynow::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    right: 0;
+    bottom: -1px;
+
+}
+.Buynow:hover::before
+{
+    width: 0px;
+    transition: all 0.3s ease;
+}
+.learnmore::after
+{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    background-color: black;
+    left: 0;
+    bottom: -1px;
+    transition: all 0.5s ease ease-in-out;
+
+}
+.learnmore:hover::after
+{
+    width:100%;
+    transition: all 0.5s ease-in-out;
+}
+.Buynow::after
+{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: black;
+    left: 0;
+    bottom: -1px;
+    transition: all 0.5s ease-in-out;
+}
+.Buynow:hover::after
+{
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.sectionwrap
+{
+    max-width: 1312px;
+    width: 100%;
+    min-height: 460px;
+    height:100%;
+}
+.content-box
+{
+    padding:20px 56px  20px 20px;
+    background-color: rgb(246, 246, 246);
+    position: relative;
+}
+.content-box span
+{
+    font-size: 16px;
+    padding-top: 4px;
+}
+.arrow
+{
+    position: absolute;
+    bottom: 20px;
+    right:24px ;
+    transition: all 0.3s ease-in-out;
+    
+}
+.sectionwrap div div:hover .arrow
+{
+    transform: translateX(10px);
+    transition: all 0.3s ease-in-out;
+}
+.sectionwrap div div img
+{
+    transition: all 0.3s ease-in-out;
+}
+.sectionwrap div div:hover img
+{
+    transform: scale(105%);
+    transition: all 0.3s ease-in-out;
+}
+.section4 
+{
+    background-color: rgb(224, 232, 234);
+}
+.menu-list
+{
+    max-width: 736px;
+    width: 100%;
+}
+.menu-list-item
+{
+    padding: 24px 15px 24px 15px;
+}
+.menu-list-item-name
+{
+    position: relative;
+    cursor: pointer;
+}
+.menu-list-item-name::after
+{
+    
+    position: absolute;
+    content: "";
+    height: .5px;
+    width: 0px;
+    background-color: black;
+    left: 0px;
+    bottom: -2px;
+    transition: all 0.3s ease-in-out;
+}
+.menu-list-item:hover .menu-list-item-name::after
+{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+
+}
+.bi-arrow-right
+{
+    transition: all 0.3s ease-in-out;
+
+}
+.menu-list-item:hover .bi-arrow-right
+{
+    transform: translateX(8px);
+    transition: all 0.3s ease-in-out;
+
+}
