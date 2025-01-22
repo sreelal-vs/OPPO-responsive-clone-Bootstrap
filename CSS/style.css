@@ -333,3 +333,43 @@ header nav
     transition: all 0.3s ease-in-out;
 
 }
+footer
+{
+    color: rgba(255, 255, 255, 0.55);
+}
+.top,.main,.bottom
+{
+    max-width: 1312px;
+    width:100% ;
+}
+footer .top
+{    
+    padding: 40px 48px;
+    font-size: 13px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.55);
+}
+dt
+{
+    font-family: "OPPO sans";
+}
+.accordion-body
+{
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 12px;
+    background-color: black;
+}
+.main_footer
+{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+    border-top: 1px solid rgba(255, 255, 255, 0.55);
+   
+}
+.main_footer div span
+{
+    font-size: 16px;
+}
+.bottom div ul li a
+{
+    color: rgba(255, 255, 255, 0.55);
+
+}
